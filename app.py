@@ -22,5 +22,5 @@ def generar_codigo_qr(enlace):
     imagen_qr.save("codigo_qr.png")
 
 # Agregar el link correspondiente
-link = "https://et-analisis-economico-72b708efbc49.herokuapp.com/"
+link = ""
 generar_codigo_qr(link)
